@@ -17,6 +17,7 @@ import apis.all_indices as all_indices
 import apis.commodity as commodity
 import apis.currency as currency
 import apis.world_indices as world_indices
+import apis.economic_indicators as economic_indicators
 
 
 # Create Database Tables
@@ -36,6 +37,7 @@ app.include_router(all_indices.router, prefix="/api")
 app.include_router(commodity.router, prefix="/api")
 app.include_router(currency.router, prefix="/api")
 app.include_router(world_indices.router, prefix="/api")
+app.include_router(economic_indicators.router, prefix="/api")
 
 
 
