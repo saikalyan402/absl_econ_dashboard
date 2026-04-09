@@ -12,12 +12,14 @@ URLS = {
     "sme": "https://www.nseindia.com/api/liveAnalysis-sme?index=sme",
     "securities": "https://www.nseindia.com/api/pre-open-market-cm-and-emerge-market",
     "snapshot": "https://www.nseindia.com/api/marketStatus",
-    "high_low_52weeks": "https://www.nseindia.com/api/live-analysis-52Week?index=high",
     "volume_gainers": "https://www.nseindia.com/api/live-analysis-volume-gainers",
     "all_indices": "https://www.nseindia.com/api/allIndices",
     "commodity": "https://www.nseindia.com/api/NextApi/apiClient?functionName=getReferenceRates&&type=null&&flag=CSR",
     "currency": "https://www.nseindia.com/api/NextApi/apiClient?functionName=getReferenceRates&&type=null&&flag=CUR",
-    "world_indices": "https://finance.yahoo.com/markets/world-indices/"
+    "world_indices": "https://finance.yahoo.com/markets/world-indices/",
+    "high_52weeks":"https://www.nseindia.com/api/live-analysis-52weekhighstock/",
+    "low_52weeks":"https://www.nseindia.com/api/live-analysis-data-52weeklowstock"
+
 
 }
 
