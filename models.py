@@ -10,7 +10,7 @@
 #     last_updated = Column(DateTime, default=lambda: datetime.now(timezone.utc), onupdate=lambda: datetime.now(timezone.utc))
 
 
-from sqlalchemy import Column, String, DateTime
+from sqlalchemy import Column, String, DateTime, Float
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from database import Base
@@ -22,6 +22,7 @@ class ScrapedData(Base):
 
     data_key = Column(String, primary_key=True, index=True)
     payload = Column(String, nullable=False)
+    percentage = Column(Float, nullable=True)
     last_updated = Column(
         DateTime,
         default=lambda: datetime.now(IST),
