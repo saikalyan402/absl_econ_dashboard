@@ -5,3 +5,14 @@ import apis.top_loosers as top_loosers
 
 app.include_router(top_gainers.router, prefix="/api")
 app.include_router(top_loosers.router, prefix="/api")
+
+
+
+
+
+
+
+
+
+"top_gainers": "https://www.capitalmarket.com/markets/equity/top-gainers/nse",
+    "top_loosers": "https://www.capitalmarket.com/markets/equity/top-losers"
